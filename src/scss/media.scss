@@ -1,0 +1,95 @@
+@media (max-width: 1150px) {
+    .header {
+        overflow: hidden;
+        height: 100%;
+
+        &__bottom {
+            flex-direction: column;
+        }
+        &__bottom-right {
+            margin-top: 55px;
+            position: relative;
+            align-self: start;
+            padding-bottom: 40px;
+            margin-bottom: 20px;
+        }
+
+        &__box {
+            position: relative;
+            margin-top: 100px;
+        }
+
+        &__slider {
+            margin-left: 0;
+        }
+        &__social {
+            position: absolute;
+            right: 0;
+            bottom: 20px;
+            margin-top: 0;
+            margin-right: 50px;
+        }
+    }
+}
+
+@media (max-width: 890px) {
+    .header {
+        &__top {
+            margin-bottom: 64px;
+        }
+        &__right  {
+            align-items: center;
+        }
+        &__right-list {
+            display: none;
+        }
+        &__burger-menu {
+            margin-left: 29px;
+            display: block;
+        }
+        &__bottom-title {
+            font-size: 64px;
+            line-height: 64px;
+        }
+        &__bottom-date {
+            margin-bottom: 32px;
+        }
+        &__box {
+            margin-top: 55px;
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .header {
+        padding-top: 20px;
+
+        &__right-btn {
+            display: none;
+        }
+
+        &__bottom-title {
+            font-size: 48px;
+            line-height: 48px;
+        }
+
+        &__bottom-date {
+            text-align: center;
+            width: auto;
+            font-size: 18px;
+            line-height: 24px;
+            padding: 16px 8px;
+            min-height: 56px;
+        }
+        &__box {
+            margin-top: 32px;
+        }
+        &__social {
+            margin-right: 16px;
+        }
+
+    }
+    .burger-menu {
+
+    }
+}
